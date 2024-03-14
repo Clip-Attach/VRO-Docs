@@ -28,7 +28,7 @@ theme:
     - content.tabs.link           #启用了内容区域的选项卡链接功能
     - content.code.annotation     #启用了对代码块进行注释的功能
     - content.code.copy           #启用了复制代码块的功能。
-    - navigation.tabs             #启用了导航栏的选项卡功能。
+    #- navigation.tabs             #启用了导航栏的选项卡功能。
 
 # Plugins
 plugins:
@@ -57,8 +57,8 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:  # 定义导航栏
-  - Home: 
-    - index: index.md  # 首页链接
-    - 00-MkDocs Tutorial: home/00-MkDocs Tutorial.md  #
-    - 00-V2Ray: home/00-V2Ray.md  #
+  - Home: index.md  # 首页链接
+  - 01-OVEN: 01-OVEN.md  #
+  - 02-INPUT: 02-INPUT.md  #
+  - 03-OUTPUT: 03-OUTPUT.md  #
   
